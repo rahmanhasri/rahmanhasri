@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Tebak Kata Game</h1>
+
+  <form id="hangman">
+      <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Tebak kata" />
+      <input id="guess" name="guess" type="submit" value="Guess" />
+      <button id="restart" name="restart" type="button">Restart</button>
+  </form>
+  <ul id="letters"></ul>
+  <p id="man"></p>
+  <p id="output" class="output"></p>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
