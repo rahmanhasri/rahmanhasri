@@ -20,7 +20,7 @@
         man = document.getElementById("man");
         guessInput = document.getElementById("letter");
 
-        man.innerHTML = 'Kamu punya sisa' + nyawa + ' nyawa';
+        man.innerHTML = 'Kamu punya sisa ' + nyawa + ' nyawa';
         output.innerHTML = '';
 
         document.getElementById("letter").value = '';

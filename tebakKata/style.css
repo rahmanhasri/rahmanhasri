@@ -3,6 +3,7 @@
 }
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 .letter {
     display: inline-block;
